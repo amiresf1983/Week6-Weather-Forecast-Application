@@ -35,4 +35,4 @@ THEN I am again presented with current and future conditions for that city
 ![Weather-Forecast](https://github.com/amiresf1983/Week6-Weather-Forecast-Application/blob/main/Screenshot%20weather.png)
 
 ### Link to the App
-<a href="https://amiresf1983.github.io/Week6-Weather-App/">The URLs of the deployed applications in GitHub</a><hr>
+<a href="[(https://amiresf1983.github.io/Week6-Weather-Forecast-Application/)">The URLs of the deployed applications in GitHub</a><hr>
