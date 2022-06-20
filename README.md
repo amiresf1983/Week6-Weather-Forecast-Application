@@ -30,14 +30,6 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 
-## Build With
-* [VScode] (http://code.visualstudio.com/) - The editor of choice.
-* [Chrome DevTools] (https://developers.google.com/web/tools/chrome-devtools) - The editor pages on-the-fly and problem diagnostic.
-* [W3C MarkUp Validator] (https://validator.w3.org/) - The markup validation service (HTML, XHTML) of web documents.
-* [GetBootstrap] (https://getbootstrap.com/) - Open-source CSS framework directed at responsive, mobile-first front-end web development. 
-* [OpenWeather API] (https://openweathermap.org/api) - OPEN API to retrieve weather data for cities.
-* [Postman] (https://www.postman.com/) - The Postman API allows to easy access to API.
-
 ## Screenshot
 ![Weather-Forecast](https://user-images.githubusercontent.com/7066137/94339127-df562500-003a-11eb-9c08-114cac8f9548.png)
 
