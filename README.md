@@ -1,5 +1,6 @@
 # Week6-Weather-Forecast-Application
 
+## About
 a simple application showing weather forecast for cities and also 5 day future forecast.
 
 
