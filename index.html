@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <title>Weather Forecast App</title>
+  </head>
+
+  <header>
+    <h1>Weather Forecast App</h1>
+  </header>
+  <body>
+    <div class="sidebar">
+      <div class="searchbar">
+        <h2>City Search</h2>
+
+        <form class="searchcity">
+          <input
+            class="cityname"
+            id="cityname"
+            placeholder="Enter city name.eg Sydney"
+          />
+          <button type="submit" id="submitButton">Search</button>
+        </form>
+
+        <div id="pastsearch">
+          <ul id="archivecity"></ul>
+        </div>
+        <button id="clearlist">Clear The List</button>
+      </div>
+
+      <div class="show-weather" id="show-weather">
+        <div class="weather-now" id="weather-now">
+          <p class="city-selected" id="city-selected">City name: Date</p>
+          <img id="icon-weather" alt="icon-weather" style="display: none" />
+          <p class="temp-now" id="temp-now">Temp</p>
+          <p class="wind-now" id="wind-now">Wind</p>
+          <p class="humidity-now" id="humidity-now">Humidity</p>
+          <p class="uv-now" id="uv-now">UV index</p>
+        </div>
+
+        <div class="future-forecast">
+          <h2>5-day Forecast</h2>
+          <div class="future-days" id="future-days"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

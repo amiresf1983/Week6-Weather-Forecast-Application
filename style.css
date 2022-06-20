@@ -1,0 +1,103 @@
+.cityname {
+  padding: 5px;
+}
+
+button {
+  padding: 5px;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: grab;
+  border-color: red;
+}
+
+.previous {
+  color: black;
+}
+
+.previous:hover {
+  background-color: rgb(190, 235, 220);
+  cursor: pointer;
+}
+h1 {
+  font-family: sans-serif;
+  background-color: rgb(56, 168, 224);
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+}
+
+.sidebar {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  flex-direction: row;
+}
+
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  background-color: pink;
+  width: 25%;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  left: 15px;
+}
+
+.show-weather {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 70%;
+}
+
+.weather-now {
+  position: relative;
+  background-color: rgb(226, 244, 200);
+  height: fit-content;
+  width: 98%;
+  padding: 20px;
+  left: 5px;
+}
+
+.future-forecast {
+  padding: 20px;
+  background-color: lemonchiffon;
+  height: fit-content;
+  width: 98%;
+  position: relative;
+  left: 5px;
+}
+
+.future-days {
+  display: flex;
+  flex-direction: row;
+}
+
+.showfutureDay {
+  padding: 5px;
+  margin: 7px;
+  border: 1px solid black;
+
+  background-color: rgb(222, 222, 211);
+  color: black;
+  width: 210px;
+}
+
+.iconfivedays {
+  width: 50px;
+  height: 50px;
+}
+
+.city-selected {
+  font-weight: bolder;
+  font-size: larger;
+}
